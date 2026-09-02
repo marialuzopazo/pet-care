@@ -25,23 +25,7 @@ PetCare nació como trabajo práctico grupal. Esta versión fue reescrita para c
 - [Vite](https://vitejs.dev/) como bundler y servidor de desarrollo
 - Persistencia con `localStorage` del navegador (no requiere backend ni base de datos para funcionar)
 
-> Este proyecto es una demo de portfolio: los datos se guardan en el navegador de cada usuario, no en un servidor. No está pensado para almacenar información sensible real.
-
-## Cómo correrlo localmente
-
-```bash
-npm install
-npm run dev
-```
-
-Abrí `http://localhost:5173` en el navegador.
-
-Para generar el build de producción:
-
-```bash
-npm run build
-npm run preview
-```
+IMPORTANTE!: Este proyecto es una demo de portfolio: los datos se guardan en el navegador de cada usuario, no en un servidor. No está pensado para almacenar información sensible real.
 
 ## Estructura del proyecto
 
@@ -55,9 +39,3 @@ src/
 ├── App.jsx         # Definición de rutas
 └── main.jsx         # Punto de entrada
 ```
-
-Las carpetas `Imagenes/`, `carpeta recursos visuales/` y `consigna tp final/` se conservan como material de referencia del proceso de diseño y la consigna original del trabajo práctico; no forman parte del build de la aplicación.
-
-## Autoría
-
-Trabajo práctico final grupal — versión corregida y reestructurada para portfolio.
