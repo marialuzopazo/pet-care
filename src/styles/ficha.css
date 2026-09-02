@@ -1,0 +1,213 @@
+.ficha-page {
+  background: linear-gradient(145deg, #2a2c88, #3c329a);
+  min-height: 100vh;
+  color: white;
+  padding: 30px 16px;
+}
+
+.panel-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.ficha-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.back-link {
+  color: #cfe8ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.pet-header {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pet-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pet-info {
+  flex: 1;
+  font-size: 13px;
+}
+
+.pet-name {
+  margin-top: 4px;
+  color: #ddd;
+  font-size: 15px;
+}
+
+.pet-details {
+  margin-top: 6px;
+  font-size: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: #ccc;
+}
+
+.edit-pet-button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.edit-pet-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pet-edit-form {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pet-edit-form input,
+.pet-edit-form select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 13px;
+}
+
+.pet-edit-form .form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.section, .section2 {
+  background-color: #f8f8f8;
+  color: #222;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section2 {
+  background-color: #eee56e;
+}
+
+.section h3, .section2 h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #333;
+  background-color: #e0e0e0;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  color: #222;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list span {
+  font-weight: bold;
+  color: #000;
+}
+
+.section button, .section2 button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.section button:hover, .section2 button:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  color: #333;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  gap: 8px;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  background-color: #007bff;
+}
+
+.modal-actions button:last-child {
+  background-color: #999;
+}
