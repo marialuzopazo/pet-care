@@ -8,6 +8,8 @@
   Aplicación web para gestionar la libreta sanitaria de una mascota: turnos, vacunas y controles médicos, todo desde una cuenta personal.
 </p>
 
+<img width="1920" height="1080" alt="1920 X 1080" src="https://github.com/user-attachments/assets/d1577761-9dde-4755-9fbb-d0590911bfb3" />
+
 ## Sobre el proyecto
 
 PetCare nació como trabajo práctico grupal. Esta versión fue reescrita para corregir errores que impedían que la aplicación React funcionara (imports rotos, páginas fuera del proyecto, dependencias faltantes) y para dejar una única app coherente y funcional, lista para desplegar y mostrar en un portfolio.
