@@ -41,3 +41,6 @@ src/
 ├── App.jsx         # Definición de rutas
 └── main.jsx         # Punto de entrada
 ```
+## PROBAR USUARIO:
+usuario: porotito contraseña: po123456
+correo: porotito@gmail.com
